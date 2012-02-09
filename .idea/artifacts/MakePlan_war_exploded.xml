@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MakePlan:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MakePlan_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="MakePlan/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MakePlan" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="3.1.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
