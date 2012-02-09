@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8">
+<beans>
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="jdbc.driverClassName" />
+        <property name="url" value="localhost:80"/>
+        <property name="username" value="dxm"/>
+        <property name="passwd" value="123"/>
+
+    </bean>
+</beans>
